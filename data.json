@@ -1,0 +1,105 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello",
+          "Hi",
+          "Hey",
+          "Good morning",
+          "Good afternoon"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi! How can I help you today?",
+          "Hey! What can I do for you?",
+          "Good morning! How can I assist you?",
+          "Good afternoon! How can I help you?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Goodbye",
+          "Bye",
+          "See you later",
+          "Take care"
+        ],
+        "responses": [
+          "Goodbye! Take care.",
+          "Bye! Have a great day.",
+          "See you later! Take care.",
+          "Take care! Goodbye."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thank you",
+          "Thanks",
+          "Appreciate it"
+        ],
+        "responses": [
+          "You're welcome! If you have any more questions, feel free to ask.",
+          "You're welcome! I'm here to help.",
+          "No problem! Let me know if there's anything else I can assist you with."
+        ]
+      },
+      {
+        "tag": "symptoms",
+        "patterns": [
+          "What are the symptoms of COVID-19?",
+          "What are the common symptoms of flu?",
+          "How do I know if I have a cold?",
+          "What are the signs of asthma?"
+        ],
+        "responses": [
+          "The symptoms of COVID-19 include fever, cough, shortness of breath, fatigue, body aches, sore throat, and loss of taste or smell.",
+          "Common symptoms of flu include fever, cough, sore throat, muscle or body aches, headaches, fatigue, and runny or stuffy nose.",
+          "If you have a cold, you may experience symptoms such as runny or stuffy nose, sneezing, sore throat, mild cough, and mild fatigue.",
+          "Signs of asthma can include wheezing, shortness of breath, chest tightness, and coughing, particularly at night or early morning."
+        ]
+      },
+      {
+        "tag": "appointment",
+        "patterns": [
+          "How do I schedule an appointment?",
+          "Can I book a consultation?",
+          "I need to see a doctor.",
+          "What's the process for making an appointment?"
+        ],
+        "responses": [
+          "To schedule an appointment, you can call our clinic at [phone number] or visit our website and use the online booking system.",
+          "Sure! We have appointments available. You can call us at [phone number] or book a consultation online through our website.",
+          "If you need to see a doctor, you can contact our clinic and our staff will assist you in scheduling an appointment.",
+          "To make an appointment, you can either call us at [phone number] or visit our website and fill out the appointment request form."
+        ]
+      },
+      {
+        "tag": "medication",
+        "patterns": [
+          "What is the dosage for ibuprofen?",
+          "How often should I take my medication?",
+          "Are there any side effects of aspirin?",
+          "Can you tell me more about [specific medication]?"
+        ],
+        "responses": [
+          "The recommended dosage for ibuprofen varies depending on the condition being treated. It's best to follow the instructions provided by your healthcare provider or the instructions on the medication label.",
+          "The frequency of medication dosage depends on the specific medication and the condition being treated. It's important to follow the instructions given by your healthcare provider or the directions on the medication label.",
+          "Aspirin may have side effects such as stomach irritation, heartburn, and increased risk of bleeding. It's important to consult your doctor or pharmacist for specific information on any medication you are taking.",
+          "Certainly! [Specific medication] is commonly used to treat [condition]. It works by [mechanism of action]. It's important to follow the prescribed dosage and consult your healthcare provider for any specific concerns or questions."
+        ]
+      },
+      
+      {
+        "tag": "fallback",
+        "patterns": [],
+        "responses": [
+          "I'm sorry, I didn't understand. Could you please rephrase your question?",
+          "Apologies, but I'm not sure I can provide an answer to that. Is there anything else I can assist you with?",
+          "I'm still learning and might not have the information you're looking for. Is there something else I can help with?"
+        ]
+      }
+    ]
+  }
+  
